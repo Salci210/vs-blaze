@@ -521,6 +521,19 @@ class PlayState extends MusicBeatState
 						bg.active = false;
 						add(bg);
 					}
+					case 'ugh':
+						{
+							var waveEffectBG = new FlxWaveEffect(FlxWaveMode.ALL, 2, -1, 3, 2);
+							var waveEffectFG = new FlxWaveEffect(FlxWaveMode.ALL, 2, -1, 5, 2);
+	
+							defaultCamZoom = 0.9;
+							curStage = 'core1';
+							var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('blazerino/core-1'));
+							bg.antialiasing = true;
+							bg.scrollFactor.set(0.9, 0.9);
+							bg.active = false;
+							add(bg);
+						}
 		          case 'thorns':
 		          {
 		                  curStage = 'schoolEvil';

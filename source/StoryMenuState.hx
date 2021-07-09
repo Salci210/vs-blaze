@@ -16,6 +16,8 @@ import flixel.util.FlxColor;
 import flixel.util.FlxTimer;
 import lime.net.curl.CURLCode;
 
+import TitleState._firesave;
+
 using StringTools;
 
 class StoryMenuState extends MusicBeatState
@@ -60,6 +62,16 @@ class StoryMenuState extends MusicBeatState
 	{
 		transIn = FlxTransitionableState.defaultTransIn;
 		transOut = FlxTransitionableState.defaultTransOut;
+
+		if (_firesave.data.weekUnlocked != null)
+			StoryMenuState.weekUnlocked = _firesave.data.weekUnlocked;
+
+		if (weekUnlocked[2])
+		{
+			weekData[2] = ['ugh'];
+			weekCharacters[2] = ['blaze', 'bf', 'gf'];
+			weekNames[2] = "UGH";
+		}
 
 		if (FlxG.sound.music != null)
 		{

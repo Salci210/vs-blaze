@@ -12,6 +12,7 @@ import flixel.FlxG;
 import flixel.FlxGame;
 import flixel.FlxObject;
 import flixel.FlxSprite;
+import flixel.util.FlxSave;
 import flixel.FlxState;
 import flixel.FlxSubState;
 import flixel.addons.display.FlxGridOverlay;
@@ -41,6 +42,8 @@ import lime.utils.Assets;
 import openfl.display.BlendMode;
 import openfl.display.StageQuality;
 import openfl.filters.ShaderFilter;
+
+import TitleState._firesave;
 
 using StringTools;
 
@@ -1784,6 +1787,8 @@ class PlayState extends MusicBeatState
 		if (isStoryMode)
 		{
 			campaignScore += songScore;
+			
+			var firedude:String = storyPlaylist[0].toLowerCase();
 
 			storyPlaylist.remove(storyPlaylist[0]);
 
@@ -1793,8 +1798,32 @@ class PlayState extends MusicBeatState
 
 				transIn = FlxTransitionableState.defaultTransIn;
 				transOut = FlxTransitionableState.defaultTransOut;
+                
+				switch (firedude)
+				{
+				case "burned-out":
+							{	
+								if (storyDifficulty > 0)
+								{
+									trace("Good save");
+									StoryMenuState.weekUnlocked[2] = true;
+									_firesave.data.weekUnlocked = StoryMenuState.weekUnlocked;
+									_firesave.flush();
+									trace("END!");
+									if (_firesave.data.leftState != true)
+									{ 
+										FlxG.sound.playMusic(Paths.music('freakyMenu'));
+										FlxG.switchState(new StoryMenuState());
+									}
 
-				FlxG.switchState(new StoryMenuState());
+								}
+							}
+					default:
+					{
+				    	FlxG.sound.playMusic(Paths.music('freakyMenu'));
+					    FlxG.switchState(new StoryMenuState());
+					}
+				}
 
 				// if ()
 				StoryMenuState.weekUnlocked[Std.int(Math.min(storyWeek + 1, StoryMenuState.weekUnlocked.length - 1))] = true;

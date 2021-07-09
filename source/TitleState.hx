@@ -4,6 +4,7 @@ package;
 import Discord.DiscordClient;
 import sys.thread.Thread;
 #end
+import flixel.util.FlxSave;
 import flixel.FlxG;
 import flixel.FlxSprite;
 import flixel.FlxState;
@@ -33,6 +34,7 @@ using StringTools;
 class TitleState extends MusicBeatState
 {
 	static var initialized:Bool = false;
+	static public var _firesave:FlxSave;
 
 	var blackScreen:FlxSprite;
 	var credGroup:FlxGroup;
@@ -66,6 +68,10 @@ class TitleState extends MusicBeatState
 		#end
 
 		FlxG.save.bind('funkin', 'ninjamuffin99');
+
+		_firesave = new FlxSave();
+		_firesave.bind('blaze', 'vsblaze');
+		trace(_firesave.path);
 
 		Highscore.load();
 

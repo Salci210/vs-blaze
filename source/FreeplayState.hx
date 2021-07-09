@@ -12,6 +12,7 @@ import flixel.math.FlxMath;
 import flixel.text.FlxText;
 import flixel.util.FlxColor;
 import lime.utils.Assets;
+import TitleState._firesave;
 
 using StringTools;
 
@@ -42,6 +43,14 @@ class FreeplayState extends MusicBeatState
 			songs.push(new SongMetadata(initSonglist[i], 1, 'gf'));
 		}
 
+		if (_firesave.data.weekUnlocked != null)
+			StoryMenuState.weekUnlocked = _firesave.data.weekUnlocked;
+
+	    if (StoryMenuState.weekUnlocked[2])
+		{
+			songs.push(new SongMetadata("ugh", 2, "blaze"));
+		}
+
 		/* 
 			if (FlxG.sound.music != null)
 			{
@@ -61,7 +70,7 @@ class FreeplayState extends MusicBeatState
 		isDebug = true;
 		#end
 
-		if (StoryMenuState.weekUnlocked[7] || isDebug)
+		if (StoryMenuState.weekUnlocked[1] || isDebug)
 			addWeek(['Matches', 'Fire', 'Burned-Out'], 7, ['blaze', 'blaze', 'blaze']);
 
 		// LOAD MUSIC

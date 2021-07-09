@@ -141,10 +141,21 @@ class DialogueBox extends FlxSpriteGroup
 		add(portraitLeft);
 		portraitLeft.visible = false;
 		}
-		if (PlayState.SONG.song.toLowerCase()=='matches' || PlayState.SONG.song.toLowerCase()=='fire' || PlayState.SONG.song.toLowerCase()=='burned-out')
+		if (PlayState.SONG.song.toLowerCase()=='matches' || PlayState.SONG.song.toLowerCase()=='fire')
 		{
-		portraitLeft = new FlxSprite(-20, FlxG.height - 600);
+		portraitLeft = new FlxSprite(100, 40);
 		portraitLeft.frames = Paths.getSparrowAtlas('weeb/blazePortrait');
+		portraitLeft.animation.addByPrefix('enter', 'Senpai Portrait Enter', 24, false);
+		portraitLeft.setGraphicSize(Std.int(portraitLeft.width * PlayState.daPixelZoom * 0.2));
+		portraitLeft.updateHitbox();
+		portraitLeft.scrollFactor.set();
+		add(portraitLeft);
+		portraitLeft.visible = false;
+		}
+		if (PlayState.SONG.song.toLowerCase()=='burned-out')
+		{
+		portraitLeft = new FlxSprite(100, 40);
+		portraitLeft.frames = Paths.getSparrowAtlas('weeb/deadBlazePortrait');
 		portraitLeft.animation.addByPrefix('enter', 'Senpai Portrait Enter', 24, false);
 		portraitLeft.setGraphicSize(Std.int(portraitLeft.width * PlayState.daPixelZoom * 0.2));
 		portraitLeft.updateHitbox();
@@ -165,7 +176,7 @@ class DialogueBox extends FlxSpriteGroup
 		}
 		if (PlayState.SONG.song.toLowerCase()=='matches' || PlayState.SONG.song.toLowerCase()=='fire' || PlayState.SONG.song.toLowerCase()=='burned-out')
 		{
-		portraitRight = new FlxSprite(700, 145);
+		portraitRight = new FlxSprite(700, 200);
 		portraitRight.frames = Paths.getSparrowAtlas('weeb/bfPortrait');
 		portraitRight.animation.addByPrefix('enter', 'Boyfriend portrait enter', 24, false);
 		portraitRight.setGraphicSize(Std.int(portraitRight.width * 1));
@@ -347,6 +358,7 @@ class DialogueBox extends FlxSpriteGroup
 			    portraitRight.visible = false;
 				portraitLeft.animation.play('enter');
 				portraitLeft.frames = Paths.getSparrowAtlas('weeb/deadBlazePortrait');
+				portraitLeft.animation.addByPrefix('enter', 'Senpai Portrait Enter', 24, false);
 				if (!portraitLeft.visible)
 				{
 					portraitLeft.visible = true;

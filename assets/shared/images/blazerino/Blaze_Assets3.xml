@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Blaze_Assets3.png">
+	<!-- Created with Adobe Animate version 20.0.3.25487 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Blaze Down Note sing0000" x="0" y="0" width="480" height="285" frameX="0" frameY="-97" frameWidth="480" frameHeight="382"/>
+	<SubTexture name="Blaze Down Note sing0001" x="480" y="0" width="406" height="318" frameX="-5" frameY="-64" frameWidth="480" frameHeight="382"/>
+	<SubTexture name="Blaze Down Note sing0002" x="886" y="0" width="407" height="343" frameX="-21" frameY="-39" frameWidth="480" frameHeight="382"/>
+	<SubTexture name="Blaze Down Note sing0003" x="1293" y="0" width="361" height="382" frameX="-21" frameY="0" frameWidth="480" frameHeight="382"/>
+	<SubTexture name="Blaze Down Note sing0004" x="1654" y="0" width="372" height="366" frameX="-25" frameY="-16" frameWidth="480" frameHeight="382"/>
+	<SubTexture name="Blaze Down Note sing0005" x="2026" y="0" width="407" height="343" frameX="-21" frameY="-39" frameWidth="480" frameHeight="382"/>
+	<SubTexture name="Blaze Down Note sing0006" x="2433" y="0" width="361" height="382" frameX="-21" frameY="0" frameWidth="480" frameHeight="382"/>
+	<SubTexture name="Blaze Down Note sing0007" x="2794" y="0" width="372" height="366" frameX="-25" frameY="-16" frameWidth="480" frameHeight="382"/>
+	<SubTexture name="Blaze Down Note sing0008" x="3166" y="0" width="407" height="343" frameX="-21" frameY="-39" frameWidth="480" frameHeight="382"/>
+	<SubTexture name="Blaze Down Note sing0009" x="3573" y="0" width="361" height="382" frameX="-21" frameY="0" frameWidth="480" frameHeight="382"/>
+	<SubTexture name="Blaze Down Note sing0010" x="3934" y="0" width="372" height="366" frameX="-25" frameY="-16" frameWidth="480" frameHeight="382"/>
+	<SubTexture name="Blaze Down Note sing0011" x="0" y="382" width="407" height="343" frameX="-21" frameY="-39" frameWidth="480" frameHeight="382"/>
+	<SubTexture name="Blaze Down Note sing0012" x="407" y="382" width="361" height="382" frameX="-21" frameY="0" frameWidth="480" frameHeight="382"/>
+	<SubTexture name="Blaze Down Note sing0013" x="768" y="382" width="372" height="366" frameX="-25" frameY="-16" frameWidth="480" frameHeight="382"/>
+	<SubTexture name="Blaze Down Note sing0014" x="1140" y="382" width="407" height="343" frameX="-21" frameY="-39" frameWidth="480" frameHeight="382"/>
+	<SubTexture name="Blaze Idle dance0000" x="1547" y="382" width="323" height="420" frameX="-3" frameY="-34" frameWidth="331" frameHeight="461"/>
+	<SubTexture name="Blaze Idle dance0001" x="1870" y="382" width="315" height="421" frameX="-3" frameY="-33" frameWidth="331" frameHeight="461"/>
+	<SubTexture name="Blaze Idle dance0002" x="2185" y="382" width="319" height="424" frameX="-3" frameY="-32" frameWidth="331" frameHeight="461"/>
+	<SubTexture name="Blaze Idle dance0003" x="2504" y="382" width="324" height="424" frameX="-3" frameY="-32" frameWidth="331" frameHeight="461"/>
+	<SubTexture name="Blaze Idle dance0004" x="2828" y="382" width="315" height="425" frameX="-3" frameY="-30" frameWidth="331" frameHeight="461"/>
+	<SubTexture name="Blaze Idle dance0005" x="3143" y="382" width="312" height="425" frameX="-3" frameY="-30" frameWidth="331" frameHeight="461"/>
+	<SubTexture name="Blaze Idle dance0006" x="3455" y="382" width="313" height="433" frameX="0" frameY="-28" frameWidth="331" frameHeight="461"/>
+	<SubTexture name="Blaze Idle dance0007" x="3768" y="382" width="318" height="433" frameX="0" frameY="-28" frameWidth="331" frameHeight="461"/>
+	<SubTexture name="Blaze Idle dance0008" x="4086" y="382" width="302" height="432" frameX="-7" frameY="-27" frameWidth="331" frameHeight="461"/>
+	<SubTexture name="Blaze Idle dance0009" x="0" y="815" width="294" height="433" frameX="-7" frameY="-26" frameWidth="331" frameHeight="461"/>
+	<SubTexture name="Blaze Idle dance0010" x="294" y="815" width="295" height="435" frameX="-10" frameY="-25" frameWidth="331" frameHeight="461"/>
+	<SubTexture name="Blaze Idle dance0011" x="589" y="815" width="301" height="436" frameX="-10" frameY="-24" frameWidth="331" frameHeight="461"/>
+	<SubTexture name="Blaze Idle dance0012" x="890" y="815" width="291" height="435" frameX="-13" frameY="-23" frameWidth="331" frameHeight="461"/>
+	<SubTexture name="Blaze Idle dance0013" x="1181" y="815" width="291" height="436" frameX="-13" frameY="-22" frameWidth="331" frameHeight="461"/>
+	<SubTexture name="Blaze Idle dance0014" x="1472" y="815" width="303" height="439" frameX="-10" frameY="-13" frameWidth="331" frameHeight="461"/>
+	<SubTexture name="Blaze Idle dance0015" x="1775" y="815" width="303" height="440" frameX="-10" frameY="-12" frameWidth="331" frameHeight="461"/>
+	<SubTexture name="Blaze Idle dance0016" x="2078" y="815" width="306" height="442" frameX="-6" frameY="-10" frameWidth="331" frameHeight="461"/>
+	<SubTexture name="Blaze Idle dance0017" x="2384" y="815" width="306" height="442" frameX="-6" frameY="-10" frameWidth="331" frameHeight="461"/>
+	<SubTexture name="Blaze Idle dance0018" x="2690" y="815" width="301" height="445" frameX="-9" frameY="-7" frameWidth="331" frameHeight="461"/>
+	<SubTexture name="Blaze Idle dance0019" x="2991" y="815" width="301" height="446" frameX="-9" frameY="-6" frameWidth="331" frameHeight="461"/>
+	<SubTexture name="Blaze Idle dance0020" x="3292" y="815" width="297" height="448" frameX="-12" frameY="-4" frameWidth="331" frameHeight="461"/>
+	<SubTexture name="Blaze Idle dance0021" x="3589" y="815" width="297" height="448" frameX="-12" frameY="-4" frameWidth="331" frameHeight="461"/>
+	<SubTexture name="Blaze Idle dance0022" x="3886" y="815" width="293" height="451" frameX="-15" frameY="-1" frameWidth="331" frameHeight="461"/>
+	<SubTexture name="Blaze Idle dance0023" x="4179" y="815" width="293" height="451" frameX="-15" frameY="-1" frameWidth="331" frameHeight="461"/>
+	<SubTexture name="Blaze Idle dance0024" x="0" y="1266" width="293" height="451" frameX="-15" frameY="-1" frameWidth="331" frameHeight="461"/>
+	<SubTexture name="Blaze Idle dance0025" x="293" y="1266" width="293" height="452" frameX="-15" frameY="0" frameWidth="331" frameHeight="461"/>
+	<SubTexture name="Blaze Idle dance0026" x="586" y="1266" width="293" height="451" frameX="-15" frameY="-1" frameWidth="331" frameHeight="461"/>
+	<SubTexture name="Blaze Idle dance0027" x="879" y="1266" width="293" height="451" frameX="-15" frameY="-1" frameWidth="331" frameHeight="461"/>
+	<SubTexture name="Blaze Left Note sing0000" x="1172" y="1266" width="294" height="444" frameX="-14" frameY="0" frameWidth="326" frameHeight="444"/>
+	<SubTexture name="Blaze Left Note sing0001" x="1466" y="1266" width="301" height="440" frameX="-25" frameY="-4" frameWidth="326" frameHeight="444"/>
+	<SubTexture name="Blaze Left Note sing0002" x="1767" y="1266" width="222" height="439" frameX="-66" frameY="-5" frameWidth="326" frameHeight="444"/>
+	<SubTexture name="Blaze Left Note sing0003" x="1989" y="1266" width="231" height="435" frameX="-65" frameY="-9" frameWidth="326" frameHeight="444"/>
+	<SubTexture name="Blaze Left Note sing0004" x="2220" y="1266" width="244" height="419" frameX="-63" frameY="-25" frameWidth="326" frameHeight="444"/>
+	<SubTexture name="Blaze Left Note sing0005" x="2464" y="1266" width="222" height="439" frameX="-66" frameY="-5" frameWidth="326" frameHeight="444"/>
+	<SubTexture name="Blaze Left Note sing0006" x="2686" y="1266" width="231" height="435" frameX="-65" frameY="-9" frameWidth="326" frameHeight="444"/>
+	<SubTexture name="Blaze Left Note sing0007" x="2917" y="1266" width="244" height="419" frameX="-63" frameY="-25" frameWidth="326" frameHeight="444"/>
+	<SubTexture name="Blaze Left Note sing0008" x="3161" y="1266" width="222" height="439" frameX="-66" frameY="-5" frameWidth="326" frameHeight="444"/>
+	<SubTexture name="Blaze Left Note sing0009" x="3383" y="1266" width="231" height="435" frameX="-65" frameY="-9" frameWidth="326" frameHeight="444"/>
+	<SubTexture name="Blaze Left Note sing0010" x="3614" y="1266" width="244" height="419" frameX="-63" frameY="-25" frameWidth="326" frameHeight="444"/>
+	<SubTexture name="Blaze Left Note sing0011" x="3858" y="1266" width="222" height="439" frameX="-66" frameY="-5" frameWidth="326" frameHeight="444"/>
+	<SubTexture name="Blaze Left Note sing0012" x="4080" y="1266" width="231" height="435" frameX="-65" frameY="-9" frameWidth="326" frameHeight="444"/>
+	<SubTexture name="Blaze Left Note sing0013" x="4311" y="1266" width="244" height="419" frameX="-63" frameY="-25" frameWidth="326" frameHeight="444"/>
+	<SubTexture name="Blaze Left Note sing0014" x="0" y="1718" width="222" height="439" frameX="-66" frameY="-5" frameWidth="326" frameHeight="444"/>
+	<SubTexture name="Blaze Right note sing0000" x="222" y="1718" width="333" height="451" frameX="-1" frameY="-4" frameWidth="334" frameHeight="455"/>
+	<SubTexture name="Blaze Right note sing0001" x="555" y="1718" width="333" height="448" frameX="-1" frameY="-7" frameWidth="334" frameHeight="455"/>
+	<SubTexture name="Blaze Right note sing0002" x="888" y="1718" width="293" height="455" frameX="-2" frameY="0" frameWidth="334" frameHeight="455"/>
+	<SubTexture name="Blaze Right note sing0003" x="1181" y="1718" width="306" height="451" frameX="0" frameY="-4" frameWidth="334" frameHeight="455"/>
+	<SubTexture name="Blaze Right note sing0004" x="1487" y="1718" width="272" height="453" frameX="-1" frameY="-2" frameWidth="334" frameHeight="455"/>
+	<SubTexture name="Blaze Right note sing0005" x="1759" y="1718" width="293" height="455" frameX="-2" frameY="0" frameWidth="334" frameHeight="455"/>
+	<SubTexture name="Blaze Right note sing0006" x="2052" y="1718" width="306" height="451" frameX="0" frameY="-4" frameWidth="334" frameHeight="455"/>
+	<SubTexture name="Blaze Right note sing0007" x="2358" y="1718" width="272" height="453" frameX="-1" frameY="-2" frameWidth="334" frameHeight="455"/>
+	<SubTexture name="Blaze Right note sing0008" x="2630" y="1718" width="293" height="455" frameX="-2" frameY="0" frameWidth="334" frameHeight="455"/>
+	<SubTexture name="Blaze Right note sing0009" x="2923" y="1718" width="306" height="451" frameX="0" frameY="-4" frameWidth="334" frameHeight="455"/>
+	<SubTexture name="Blaze Right note sing0010" x="3229" y="1718" width="272" height="453" frameX="-1" frameY="-2" frameWidth="334" frameHeight="455"/>
+	<SubTexture name="Blaze Right note sing0011" x="3501" y="1718" width="293" height="455" frameX="-2" frameY="0" frameWidth="334" frameHeight="455"/>
+	<SubTexture name="Blaze Right note sing0012" x="3794" y="1718" width="306" height="451" frameX="0" frameY="-4" frameWidth="334" frameHeight="455"/>
+	<SubTexture name="Blaze Right note sing0013" x="4100" y="1718" width="272" height="453" frameX="-1" frameY="-2" frameWidth="334" frameHeight="455"/>
+	<SubTexture name="Blaze Right note sing0014" x="0" y="2173" width="293" height="455" frameX="-2" frameY="0" frameWidth="334" frameHeight="455"/>
+	<SubTexture name="Blaze Up Note sing0000" x="293" y="2173" width="243" height="608" frameX="-11" frameY="-34" frameWidth="267" frameHeight="642"/>
+	<SubTexture name="Blaze Up Note sing0001" x="536" y="2173" width="253" height="642" frameX="-12" frameY="0" frameWidth="267" frameHeight="642"/>
+	<SubTexture name="Blaze Up Note sing0002" x="789" y="2173" width="241" height="511" frameX="-1" frameY="-130" frameWidth="267" frameHeight="642"/>
+	<SubTexture name="Blaze Up Note sing0003" x="1030" y="2173" width="253" height="539" frameX="0" frameY="-102" frameWidth="267" frameHeight="642"/>
+	<SubTexture name="Blaze Up Note sing0004" x="1283" y="2173" width="266" height="521" frameX="-1" frameY="-120" frameWidth="267" frameHeight="642"/>
+	<SubTexture name="Blaze Up Note sing0005" x="1549" y="2173" width="241" height="511" frameX="-1" frameY="-130" frameWidth="267" frameHeight="642"/>
+	<SubTexture name="Blaze Up Note sing0006" x="1790" y="2173" width="253" height="539" frameX="0" frameY="-102" frameWidth="267" frameHeight="642"/>
+	<SubTexture name="Blaze Up Note sing0007" x="2043" y="2173" width="266" height="521" frameX="-1" frameY="-120" frameWidth="267" frameHeight="642"/>
+	<SubTexture name="Blaze Up Note sing0008" x="2309" y="2173" width="241" height="511" frameX="-1" frameY="-130" frameWidth="267" frameHeight="642"/>
+	<SubTexture name="Blaze Up Note sing0009" x="2550" y="2173" width="253" height="539" frameX="0" frameY="-102" frameWidth="267" frameHeight="642"/>
+	<SubTexture name="Blaze Up Note sing0010" x="2803" y="2173" width="266" height="521" frameX="-1" frameY="-120" frameWidth="267" frameHeight="642"/>
+	<SubTexture name="Blaze Up Note sing0011" x="3069" y="2173" width="241" height="511" frameX="-1" frameY="-130" frameWidth="267" frameHeight="642"/>
+	<SubTexture name="Blaze Up Note sing0012" x="3310" y="2173" width="253" height="539" frameX="0" frameY="-102" frameWidth="267" frameHeight="642"/>
+	<SubTexture name="Blaze Up Note sing0013" x="3563" y="2173" width="266" height="521" frameX="-1" frameY="-120" frameWidth="267" frameHeight="642"/>
+	<SubTexture name="Blaze Up Note sing0014" x="3829" y="2173" width="241" height="511" frameX="-1" frameY="-130" frameWidth="267" frameHeight="642"/>
+</TextureAtlas>
